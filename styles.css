@@ -1,0 +1,19 @@
+*{
+    font-family: "times new roman", verdana, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-image: url(trachHeaderSmall.png);
+    background-attachment: fixed;
+    background-position: left center;
+    background-clip: border-box;
+    background-origin: border-box;
+    background-repeat: repeat-y;
+    background-size: 15% 10%;
+    
+    padding-left: 15%;
+    
+    font-size: 3em;
+    font-family: cursive;
+}
