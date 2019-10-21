@@ -17,14 +17,15 @@
         
             <!-- creates structual element to hold the header content (Website title, logo) -->
             <header>
+                <img src="trachHeaderSmall.png" alt="track portal logo">
                 <h1>Track Portal</h1>
             </header>
 
             <!-- creates nav bar with image map reference that traverses to corresponding webpage -->
             <nav id="topNavigation">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="recentNews.html">Recent News</a></li>
+                    <li class="borderRight"><a href="index.html">Home</a></li>
+                    <li class="borderRight"><a href="recentNews.html">Recent News</a></li>
                     <li><a href="movieReleases.html">Movie Releases</a></li>
                 </ul>
             </nav>
@@ -34,20 +35,20 @@
 
                 <h2>Movie Releases</h2>
 
-                <ul>
-                    <li class="movieList">
+                <ul class="contentList">
+                    <li class="movieListItem">
                         <a href="https://www.youtube.com/watch?v=74eJaVQFybI">
                             <img src="McFarland.png" alt="McFarland Movie Image" class="floatLeftMovieImage">
                         </a>
                         <p>Jim White had it all. As a presitgious, head football coach living in the sub-urban area of a town in Idaho.  Fate turns abruptly on him as one inadvertent mistake sends him packing to the desistute, melancholic town of Cross-Valley, California. As he struggles to acclimate to his new environment, he ascertains the tribulations that everyone in this mostly latino town faces. Discovering the latent abilities of several embattled students, he quickly finds a new purpose, one that isn't fixated on affluence.</p>
                     </li>
-                    <li class="movieList">
+                    <li class="movieListItem" id="overlapBorderRemedy">
                         <a href="https://www.youtube.com/watch?v=XrjJbl7kRrI">
                             <img src="Unbroken.png" alt="Unbroken Movie Image" class="floatLeftMovieImage">
                         </a>
                         <p>Ever since he was a young boy, Louis Zamperni displayed brazen recklesness and energy. With help from his family, he procures success as a reknown athlete; qualifying for the 1936 olympics, he was at an all-time high. When WW2 instigates, we follow his story diverge in a new direction as he joins as a pilot, gets shot down, and later captured as a Japanese POW. Watch this to see the impervious fighting spirit of a track athlete on full-display!</p>
                     </li>
-                    <li class="movieList">
+                    <li class="movieListItem">
                         <a href="https://www.youtube.com/watch?v=SbLtOeuCXwk">
                             <img src="FourMinutes.png" alt="Four Minutes Movie Image" class="floatLeftMovieImage">
                         </a>
@@ -59,7 +60,7 @@
             </main>
 
             <!-- creates nav bar on bottom of page for ease navigation (non-graphical) -->
-            <nav>
+            <nav id="bottomNavigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="recentNews.html">Recent News</a></li>

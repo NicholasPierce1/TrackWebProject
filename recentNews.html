@@ -17,14 +17,15 @@
             
             <!-- creates structual element to hold the header content (Website title, logo) -->
             <header>
+                <img src="trachHeaderSmall.png" alt="track portal logo">
                 <h1>Track Portal</h1>
             </header>
 
             <!-- creates nav bar with image map reference that traverses to corresponding webpage -->
             <nav id="topNavigation">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="recentNews.html">Recent News</a></li>
+                    <li class="borderRight"><a href="index.html">Home</a></li>
+                    <li class="borderRight"><a href="recentNews.html">Recent News</a></li>
                     <li><a href="movieReleases.html">Movie Releases</a></li>
                 </ul>
             </nav>
@@ -34,21 +35,21 @@
 
                 <h2>Recent Track Stories</h2>
 
-                <ul>
-                    <li class="newsList">
+                <ul class="contentList">
+                    <li class="newsListItem">
                         <a href="https://bleacherreport.com/articles/2762583-sir-roger-bannister-dies-at-88-was-1st-person-to-run-a-mile-in-under-4-minutes">
                             <img src="BleacherReport.png" alt="Bleacher Report Logo" class="floatLeftNewsLogo">
                         </a>
                         <p>Sir Roger Bannister, the inspirational hero that was the first to break the 4-minute mile barrier, passed away at the age 88. Hear his story and reactions from around the world as they pay tribute to the legend.</p>
                     </li>
-                    <li class="newsList">
+                    <li class="newsListItem" id="overlapBorderRemedy">
                         <a href="https://www.cnn.com/2019/09/30/sport/allyson-felix-world-record-trnd/index.html">
                             <img src="CNN.png" alt="CNN Logo" class="floatLeftNewsLogo">
                         </a>
                         <p>Step aside Usain Bolt, there's a new world record holder to beat and her name is Felix Jones. Click here
                         to learn more about her story and the impact of her amazing feat!</p>
                     </li>
-                    <li class="newsList">
+                    <li class="newsListItem">
                         <a href="https://time.com/5699063/eliud-kipchoge-marathon-two-hours/">
                             <img src="TimeMagazine.png" alt="Time Magazine Logo" class="floatLeftNewsLogo">
                         </a>
@@ -59,7 +60,7 @@
             </main>
 
             <!-- creates nav bar on bottom of page for ease navigation (non-graphical) -->
-            <nav>
+            <nav id="bottomNavigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="recentNews.html">Recent News</a></li>
