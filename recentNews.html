@@ -23,7 +23,17 @@
 
             <!-- creates nav bar with image map reference that traverses to corresponding webpage -->
             <nav id="topNavigation">
-                <img src="NavBarImageMap.png" alt="Nav Bar Image" id="navBarImageMap">
+                <img src="NavBarImageMap.png" alt="Nav Bar Image" id="navBarImageMap" usemap="#image_map">
+                <map name="image_map">
+                  <area alt="homeTag" title="homeTag" href="index.html" coords="0,0,358,50" shape="rect">
+                  <area alt="recentNewsTag" title="recentNewsTag" href="recentNews.html" coords="359,0,728,50" shape="rect">
+                  <area alt="movieReleasesTag" title="movieReleasesTag" href="movieReleases.html" coords="729,0,1100,50" shape="rect">
+                </map>
+                <ul>
+                    <li class="borderRight"><a href="index.html">Home</a></li>
+                    <li class="borderRight"><a href="recentNews.html">Recent News</a></li>
+                    <li><a href="movieReleases.html">Movie Releases</a></li>
+                </ul>
             </nav>
 
             <!-- holds the track and you section + history of track -->
